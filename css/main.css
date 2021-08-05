@@ -1,0 +1,440 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+	font-family: georama_r;
+	src: url("../font/Georama-Regular.ttf");}
+@font-face {
+	font-family: georama_b;
+	src: url("../font/Georama-Bold.ttf");}
+@font-face {
+	font-family: georama_semi_b;
+	src: url("../font/Georama_SemiCondensed-Bold.ttf");}
+@font-face {
+	font-family: georama_l;
+	src: url("../font/Georama-Light.ttf");}
+@font-face {
+	font-family: viettel;
+	src: url("../font/Magistral Book.ttf");}
+body {
+	margin : 0;
+	padding : 0;
+	height: 680px;
+	overflow: hidden;}
+button
+	{width: 200px;
+	height: 50px;
+	background-color:#ef0032;
+	border-radius: 100px;
+	border: none;}
+.fa 
+	{padding: 10px;
+	font-size: 10pt;
+	width: 35px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+	border-radius: 50%;}
+.fa:hover 
+	{opacity: 0.5;}
+.fa-facebook 
+	{background: #3B5998;
+	color: white;font-size: 80pt;}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;}
+.fa-google {
+  background: #dd4b39;
+  color: white;}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;}
+.full
+	{width: 100%;
+	height: 100%;
+	background-color:wheat;
+	font-family: georama_r;
+	overflow-y: scroll;scroll-behavior: smooth;}
+.banner
+	{width: 100%;
+	height: 80px;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+  	top: 0;
+	position: fixed;}
+.logo
+	{width:25%;
+	height:80px;
+	float: left;
+	padding: 22px 60px;
+	box-sizing: border-box;
+	background-color:white;}
+.menu
+	{width: 60%;
+	height: 80px;
+	float: right;
+	background-color: white;}
+.menu ul
+	{list-style: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;}
+.menu ul li 
+	{padding: 20px 25px 13px 25px;
+	float: left;}
+.menu ul li a
+	{display: block;
+ 	color: black;
+	font-size: 18px;
+  	text-align: center;
+ 	padding: 10px 0px;
+	text-decoration: none;}
+.menu ul li:hover
+	{border-bottom: 5px solid #ef0032 ;}
+.menu li a:hover
+	{color: #ef0032;}
+.phone
+	{width:15%;
+	height:75px;
+	float: left;
+	background-color: white;
+	font-family: georama_b;
+	padding: 25px 0px;
+	box-sizing: border-box;
+	color: #ef0032;}
+.nen_1
+	{width:100%;
+	height:800px;
+	float: left;
+	background-color:  white;}
+.nen_1_hinh
+	{width:50%;
+	height:800px;
+	float: right;
+	background-color:white;
+	padding: 100px 0px;
+	box-sizing: border-box;}
+.nen_1_chu
+	{width:50%;
+	height:800px;
+	float: left;
+	background-color:  white;
+	box-sizing: border-box;}
+.nen_1_chu_tren
+	{width:100%;
+	height:500px;
+	float: left;
+	background-color:  white;
+	padding: 150px 150px;	
+	box-sizing: border-box;}
+.nen_1_chu_duoi
+	{width:100%;
+	height:300px;
+	float: left;
+	background-color:  white;
+	padding: 20px 140px ;	
+	box-sizing: border-box;}
+
+.nen_2
+	{width:100%;
+	height:500px;
+	float: left;
+	background-color: white;
+	display: flex;
+	justify-content: center;}
+.nen_2_1
+	{width:32%;
+	height:500px;
+	float: left;
+	background-color:   white;
+	padding: 70px 20px ;	
+	box-sizing: border-box;}
+.nen_2_2
+	{width:32%;
+	height:500px;
+	float: left;
+	background-color:  white;
+	padding: 70px 20px ;	
+	box-sizing: border-box;}
+.nenphu_2_3
+	{width:100%;
+	height:80px;
+	float: left;
+	background-color: #ef0032;
+	display: flex;
+	justify-content: center;}
+.nenphu_2_3_a
+	{width:7%;
+	height:100px;
+	float: left;
+	background-color:#ef003;
+	padding: 10px;	
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;}
+.nenphu_2_3_b
+	{width:44%;
+	height:100px;
+	float: left;
+	background-color:#ef003;
+	font-family: georama_b;
+	padding: 10px 0px;	
+	box-sizing: border-box;
+	font-size: 27pt; color: white;
+	display: flex;justify-content: center;}
+.nenphu_2_3_c
+	{width:36%;
+	height:100px;
+	float: left;
+	background-color:#ef003;
+	font-family: georama_l;
+	padding: 15px 5px;	
+	box-sizing: border-box;
+	font-size: 22pt; color: white;
+	display: flex;justify-content: center;}
+.nenphu_2_3_d
+	{width:13%;
+	height:100px;
+	float: left;
+	background-color: #ef003;
+	padding: 15px 7px;	
+	box-sizing: border-box;}
+.taingay
+	{width: 140px;
+	height: 50px;
+	background-color:black;color: white;
+	border-radius: 30px;
+	border: none;
+	font-family: georama_b;font-size: 18pt;
+	padding: 6px;box-sizing: border-box;
+	display: flex;justify-content: center;}
+.nen_3
+	{width:100%;
+	height:800px;
+	float: left;
+	background-color: white;}
+.nen_3_tren
+	{width:100%;
+	height:235px;
+	background-color:white;
+	padding: 90px 0px ;	
+	box-sizing: border-box;
+	font-family: georama_r;}
+.nen_3_duoi
+	{width:100%;
+	height:565px;
+	background-color:white;
+	display: flex;
+	justify-content: center;}
+.nen_3_1
+	{width:32%;
+	height:530px;
+	float: left;
+	background-color:  white;}
+.nen_3_1_a
+	{width:100%;
+	height:80px;
+	float: left;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	font-size: 25pt;color: #ef0032;
+	padding: 30px 0px ;	
+	box-sizing: border-box;}
+.nen_3_1_b
+	{width:100%;
+	height:160px;
+	float: left;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	padding: 10px 0px ;	
+	box-sizing: border-box;}
+.nen_3_1_c
+	{width:100%;
+	height:280px;
+	float: left;
+	background-color: white;
+	padding: 5px 60px ;	
+	box-sizing: border-box;}
+.mini_1
+	{width:275px;
+	height:140px;
+	float: left;
+	background-color: white;
+	font-size: 55pt;
+	display: flex;
+	justify-content: flex-end;}
+.mini_2
+	{width:89px;
+	height:140px;
+	float:right;
+	background-color:white;
+	padding: 43px 5px ;	
+	box-sizing: border-box;}
+.nen_4
+	{width:100%;
+	height:800px;
+	float: left;
+	background-color:white;}
+.nen_4_tren
+	{width:100%;
+	height:150px;
+	float: left;
+	background-color:white;
+	padding: 88px;	
+	box-sizing: border-box;}
+.nen_4_duoi
+	{width:100%;
+	height:650px;
+	float: left;
+	background-color: white;
+	}
+.box
+	{width:1000px;
+	height:75px;
+	background-color: darkgrey;
+	margin: 30px;
+	display: flex;justify-content: center;}
+.box_a
+	{width:950px;
+	height:75px;
+	background-color:#E7E7E7;
+	font-size: 15pt;
+	padding: 20px;	
+	box-sizing: border-box;
+	border-left: solid #ef0032; border-width: 10px;}
+.box_b
+	{width:50px;
+	height:75px;
+	background-color:#E7E7E7;
+	font-size: 15pt;
+	padding: 25px 0px;box-sizing: border-box;}
+.nen_5
+	{width:100%;
+	height:550px;
+	float: left;
+	background-repeat: no-repeat;
+	background-attachment: fixed;  
+	background-size: cover;
+	background-image: url("../images/background.jpg");
+	padding: 70px 0px;box-sizing: border-box;}
+.nenphu_4_5
+	{width:100%;
+	height:500px;
+	float: left;
+	background-color: teal;}
+
+.table
+	{width: 500px;
+	height: 550px;
+	border: none;}
+.table input
+	{width: 250px;
+	height: 40px;
+	border-radius: 10px;
+	border:none; 
+	padding: 15px;
+	box-sizing: border-box;}
+.table textarea
+	{width: auto;
+	height: auto;
+	border:none;
+	border-radius: 10px;
+	padding: 15px;
+	box-sizing: border-box;}
+/*---------------------------*/
+.table_2
+	{width: 500px;
+	height: 130px;
+	border: none;}
+.table_2 input
+	{
+	height: 40px;
+	border-radius: 10px;
+	border:none; background-color: #E2E2E2;
+	padding: 15px;
+	box-sizing: border-box;}
+/*------------------------------*/
+.nen_6
+	{width:100%;
+	height:700px;
+	float: left;
+	background-color:white;}
+.nen_6_tren
+	{width:100%;
+	height:200px;
+	float: left;
+	background-color:white;
+	padding: 88px;	
+	box-sizing: border-box;}
+.nen_6_duoi
+	{width:100%;
+	height:430px;
+	float: left;
+	background-color:white;
+	display: flex;justify-content: center;}
+.nen_6_duoi_a
+	{width:29%;
+	height:400px;
+	float: left;
+	background-color:white;
+	padding: 20px;	
+	box-sizing: border-box;
+	border-radius: 10px;
+	border: none;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+.nen_6_duoi_duoi
+	{width:100%;
+	height:480px;
+	float: left;
+	background-color:white;
+	display: flex;justify-content: center;}
+.nen_7
+	{width:100%;
+	height:440px;
+	float: left;
+	background-color:antiquewhite;}
+.nen_7_trai
+	{width:35%;
+	height:440px;
+	float: left;
+	background-color:white;
+	padding: 10px 15px 20px 35px;	
+	box-sizing: border-box;}
+.nen_7_phai
+	{width:65%;
+	height:440px;
+	float: left;
+	background-color:white;}
+.nen_7_phai_tren
+	{width:100%;
+	height:300px;
+	float: left;
+	background-color:white;
+	padding: 70px 20px 0px 20px;	
+	box-sizing: border-box;
+	-moz-column-count: 3;
+	-moz-column-gap: 20px;
+	-webkit-column-count: 3;
+	-webkit-column-gap: 20px;
+	column-count: 3;
+	column-gap: 20px;
+}
+.nen_7_phai_duoi
+	{width:100%;
+	height:140px;
+	float: left;
+	background-color:white;
+	padding: 10px 20px;	
+	box-sizing: border-box;}
+
+.footer
+	{width:100%;
+	height:60px;
+	float: left;
+	background-color:#ef0032;
+	padding: 8px;	
+	box-sizing: border-box;}
+/*-----------------------*/
+
